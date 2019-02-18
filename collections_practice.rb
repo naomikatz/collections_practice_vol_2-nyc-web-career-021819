@@ -1,7 +1,7 @@
 # your code goes here
 
-def begins_with_r(array)
-  array.each do |element|
+def begins_with_r(tools_array)
+  tools_array.each do |element|
     if element[0] != "r"
       return false
     end
